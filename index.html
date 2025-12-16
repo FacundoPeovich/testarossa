@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ✅ SEO básico -->
+    <title>Testarossa Barbería & Peluquería | Villa Bosch</title>
+    <meta
+      name="description"
+      content="Testarossa Barbería & Peluquería en Villa Bosch. Cortes masculinos, barbas, alisados y colorimetría. Reservá por WhatsApp."
+    />
+    <meta name="robots" content="index,follow" />
+
+    <!-- ✅ Canonical (cambiá por tu dominio cuando lo tengas) -->
+    <link rel="canonical" href="https://testarossa.vercel.app/" />
+
+    <!-- ✅ Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Testarossa" />
+    <meta
+      property="og:title"
+      content="Testarossa Barbería & Peluquería | Villa Bosch"
+    />
+    <meta
+      property="og:description"
+      content="Cortes masculinos, barbas, alisados y colorimetría. Reservá por WhatsApp."
+    />
+    <meta property="og:url" content="https://testarossa.vercel.app/" />
+
+    <!-- ✅ Imagen para compartir: ponela en /public/og.jpg -->
+    <meta
+      property="og:image"
+      content="https://testarossa.vercel.app/og.jpg"
+    />
+    <meta property="og:image:alt" content="Testarossa Barbería & Peluquería" />
+
+    <!-- ✅ Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Testarossa Barbería & Peluquería | Villa Bosch"
+    />
+    <meta
+      name="twitter:description"
+      content="Cortes masculinos, barbas, alisados y colorimetría. Reservá por WhatsApp."
+    />
+    <meta
+      name="twitter:image"
+      content="https://testarossa.vercel.app/og.jpg"
+    />
+
+    <!-- ✅ Favicon (recomendado) -->
+    <!-- Poné /public/favicon.ico (o png) y dejalo así -->
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- ✅ LocalBusiness JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HairSalon",
+        "name": "Testarossa Barbería & Peluquería",
+        "image": "https://testarossa.vercel.app/og.jpg",
+        "telephone": "+541158814417",
+        "url": "https://testarossa.vercel.app/",
+        "sameAs": ["https://instagram.com/testarossa.peluqueria"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Santos Vega 6972",
+          "addressLocality": "Villa Bosch",
+          "addressRegion": "Buenos Aires",
+          "addressCountry": "AR",
+          "postalCode": "B1682"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "10:00",
+            "closes": "13:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "16:00",
+            "closes": "20:30"
+          }
+        ],
+        "priceRange": "$$",
+        "areaServed": "Villa Bosch"
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
